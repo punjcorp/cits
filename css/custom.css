@@ -1,0 +1,299 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 4px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+
+    .bigicons{
+    background: url(../images/cir.png) no-repeat;
+    padding: 30px;
+    font-size: 24px;
+    font-family: FontAwesome;
+    color: #FFFFFF;
+    text-align: center;
+    }
+    .address{
+    background-color: #4DC3EF;
+    color: #FFFFFF;
+    }
+    .custom-footer{
+    color: rgba(0,0,0,0.5)
+    margin-top:50px;
+    }
+    .line2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:100%;
+    color: #FFFFFF;
+    background: url(../images/background.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    .line2:after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 100px solid white;
+    border-left: 2000px solid transparent;
+    }
+    .line2:before{
+    top: 0;
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-top: 50px solid white;
+    border-right: 2000px solid transparent;
+    }
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+    @media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 40px;
+    }
+    }
+    @media (min-width: 62em) {
+    .featurette-heading {
+    margin-top: 1rem;
+    }
+    }
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+    /* Center align the text within the three columns below the carousel */
+    .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
+    .marketing h2 {
+    font-weight: 400;
+    }
+    .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    }
+    /* Featurettes
+    ------------------------- */
+    .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    }
+    /* Thin out the marketing headings */
+    .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    }
+    /*
+    * This is for navigation bar styling
+    */
+    .nav-link{
+    text-transform: uppercase;
+    }
+
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #4DC3EF;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+    color: #4DC3EF;
+    }
+
+
+/**
+* This section have all the styles related to carousel
+*
+*/
+.carousel {
+    padding: 85px 0 0;
+
+}
+.carousel-item {
+  height: 500px;
+ }
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.carousel-indicators .active {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    background-color: #4DC3EF;
+}
+
+
+/**
+ * This is to add custom styles for tables
+ */
+.no-padding{
+    padding: 0;
+}
+.img-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 65px;
+}
+
+
+/**
+ * This is to add custom styles for grids for project
+ */
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+/* ---- isotope ---- */
+
+.projects {
+  background: #DDD;
+}
+
+/* clear fix */
+.projects:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.project-sizer,
+.project-item {
+  width: 33.333%;
+}
+
+.project-item {
+  float: left;
+}
+
+.project-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/**
+ * This is the project radio button styles
+ */
+.project-selection {
+    padding-top: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-selection > div {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:not(:disabled) ~ label {
+  cursor: pointer;
+  padding-top: 1.5rem;
+}
+
+.filter-label {
+  height: 100%;
+  display: block;
+  background: white;
+  border: 2px solid #4DC3EF;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+  position: relative;
+}
+
+input[type="radio"]:checked + label {
+  background: #4DC3EF;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(77, 195, 239, 0.75);
+}
+input[type="radio"]:checked + label::after {
+  color: #4DC3EF;
+  font-family: FontAwesome;
+  border: 2px solid #4DC3EF;
+  content: "\f00c";
+  font-size: 24px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.25);
+}
+
+input[type="radio"]:hover + label {
+  background: #3486A3;
+  color: white;
+  box-shadow: 0px 0px 20px rgba(52, 134, 163, 0.75);
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
+}
+
+.lead{
+  font-size: 1.1rem;
+  text-align: justify;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
