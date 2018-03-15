@@ -21,7 +21,9 @@ $(function() {
 
   $('input:radio[name=filterSelect]').change(function(){
     var selectedFilter=$('input[name=filterSelect]:checked').val();
-    $grid.isotope({ filter: '.'+selectedFilter });
+    if(selectedFilter.indexOf('*')<0)
+      selectedFilter='.'+selectedFilter;
+    $grid.isotope({ filter: selectedFilter });
   });
 
 

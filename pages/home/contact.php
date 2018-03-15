@@ -71,7 +71,7 @@
             <div class="row">
               <div class="col-md-8 col-xs-12">
                 <div class="form-group">
-                  <div class="g-recaptcha" data-sitekey="6Ld9pUUUAAAAAGV_ZGN9Bt0UV4EjhknRP0_NVwJ9"></div>
+                  <div class="g-recaptcha" data-sitekey="6Le8U0wUAAAAAHFhW1vGjj6S3NEjrCBs3OEvtBSM"></div>
                 </div>
               </div>
             </div>

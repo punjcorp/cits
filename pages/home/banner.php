@@ -32,7 +32,7 @@
               <p><i class="fa fa-arrow-circle-right"></i> We Listen</p><br>
               <p><i class="fa fa-arrow-circle-right"></i> We Discuss</p><br>
               <p><i class="fa fa-arrow-circle-right"></i> We Design and Develop</p><br>
-              <p><i class="fa fa-arrow-circle-right"></i> We Deliever</p><br>
+              <p><i class="fa fa-arrow-circle-right"></i> We Deliver</p><br>
               <p><i class="fa fa-arrow-circle-right"></i> We Support</p>
             </div>
             <div class="col-5 right-details d-none d-lg-block d-xl-block">
