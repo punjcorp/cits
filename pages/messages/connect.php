@@ -1,10 +1,10 @@
 <?php
 function connectDB() {
-	$dbHost = "localhost";
+	$dbHost = "103.211.216.29";
 	$dbPort = "3306";
-	$dbUser = "admin";
-	$dbPass = "admin";
-	$dbName = "citsdb";
+	$dbUser = "consunal_ro_user";
+	$dbPass = "Hemant#2942";
+	$dbName = "consunal_citsdb";
 	//Create Connection
 	static $pdo;
 

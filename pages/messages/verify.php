@@ -7,7 +7,7 @@ $return_arr = array();
 if (isset($_POST['g-recaptcha-response'])) {
 	$receivedRecaptcha = $_POST['g-recaptcha-response'];
 }
-$google_secret = '6Ld9pUUUAAAAAFsVy2ogZBlwesW1Kcdal5RBHrpJ';
+$google_secret = '6Le8U0wUAAAAAEch2gO0ocR5MUhBOIo4MFJFybJT';
 $verifiedRecaptcha = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $google_secret . '&response=' . $receivedRecaptcha);
 
 $verResponseData = json_decode($verifiedRecaptcha);
